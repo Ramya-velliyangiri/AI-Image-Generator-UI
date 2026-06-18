@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width,
+initial-scale=1.0">
+    <title>AI Image Generator</title>
+
+    <link rel="stylesheet"
+href="style.css">
+</head>
+<body>
+    <div id="toast"></div>
+    <nav>
+        <h2>AI Image Generator</h2>
+        <button id="theme-btn">🌙</button>
+    </nav>
+    <div class="container">
+        <h1>Create Amazing AI Images</h1>
+        <p>Describe the image you want to generate</p>
+        <input 
+        type="text"
+        id="prompt"
+        placeholder="Enter your prompt here...">
+        <button id="generate-btn">
+            Generate Image
+        </button>
+        <button id="random-btn">
+            Random prompts
+        </button>
+        <div class="image-box" id="image-box">
+            Image will appear here
+        </div>
+        <button id="download-btn">
+            Download Image
+        </button>
+        <h2>Example Prompts</h2>
+
+        <div id="example-prompts">
+            <button class="prompt-card">A cat wearing sunglasses</button>
+            <button class="prompt-card">A futuristic city at night</button>
+            <button class="prompt-card">A robot cooking food</button>
+        </div>
+        <h2>Recent Images</h2>
+        <div id="history"></div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>

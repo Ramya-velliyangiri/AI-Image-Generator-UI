@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+    background: linear-gradient(
+        135deg,
+        #0f0f0f,
+        #00c6ff
+    );
+
+    min-height:100vh;
+    
+}
+nav{
+    background:#222;
+    color:white;
+    padding:20px;
+    text-align:center;
+    border-radius:0 0 20px 20px;
+}
+.container{
+    .container{
+    width:80%;
+    max-width:600px;
+
+    margin:50px auto;
+
+    text-align:center;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.2);
+}
+}
+h1{
+    margin-bottom:10px;
+}
+
+p{
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.image-box{
+    margin-top:20px;
+    border:2px dashed #ccc;
+    border-radius:10px;
+    background-color:white;
+    overflow:hidden;
+
+    max-width:450px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+button{
+    background:#222;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    transform:scale(1.05);
+}
+input:focus{
+    outline:none;
+    border:2px solid #222;
+}
+.image-box img{
+    width:100%;
+    max-height:300px;
+    object-fit:cover;
+    display:block;
+    border-radius:10px;
+}
+.loader{
+    width:50px;
+    height:50px;
+    border:5px solid #ddd;
+    border-top:5px solid #222;
+    border-radius:50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform:rotate(0deg);
+    }
+
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode nav{
+    background:#000;
+}
+
+.dark-mode .image-box{
+    background:#222;
+    border-color:#555;
+}
+.darkmode.container{
+    background: #1e1e1e;
+}
+#download-btn{
+    margin-top:15px;
+}
+#history{
+    margin-top:20px;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+#history img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    border-radius:8px;
+}
+#example-prompts{
+    margin:20px 0;
+}
+
+.prompt-card{
+    margin:5px;
+}
+#toast{
+    position:fixed;
+    top:20px;
+    right:20px;
+    background:#222;
+    color:white;
+    padding:15px;
+
+    opacity:0;
+    transition:0.3s;
+}
