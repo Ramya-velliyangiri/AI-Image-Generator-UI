@@ -1,29 +1,29 @@
-# 📊 SaaS Analytics Dashboard
+# 🎨 AI Image Generator UI
 
-A sleek and responsive SaaS Analytics Dashboard built to deliver meaningful business insights through an intuitive and visually engaging interface. The dashboard provides a centralized view of key metrics such as revenue, user growth, subscriptions, sales performance, and operational trends, enabling users to monitor business performance efficiently.
+An elegant and responsive frontend interface inspired by modern AI image generation platforms. This project provides a streamlined experience for entering creative prompts, configuring generation options, and previewing generated artwork through a clean and visually engaging design. It is built with scalability in mind, making it easy to integrate with AI image generation services in the future.
+
+---
+Intern ID:CITS2890
+---
+
+## 🌟 Project Highlights
+
+- Prompt-driven image generation interface
+- Minimal and distraction-free workspace
+- Responsive layout optimized for desktop and mobile
+- Smooth interactions and modern UI components
+- Organized design for future AI service integration
+- Focus on usability and accessibility
 
 ---
 
-## 🌟 Overview
+## 💡 Inspiration
 
-This project demonstrates the design and development of a modern analytics dashboard inspired by real-world SaaS platforms. It emphasizes usability, responsive layouts, and data-focused UI components, making it suitable for business monitoring and administrative applications.
-
----
-
-## 🚀 Features
-
-- 📈 Interactive KPI cards
-- 💹 Revenue and sales tracking
-- 👥 Customer & subscription statistics
-- 📊 Performance overview sections
-- 🔔 Dashboard notifications
-- 📅 Activity summary
-- 📱 Fully responsive layout
-- 🎨 Clean and professional dashboard interface
+This project is inspired by popular AI creative platforms such as Midjourney, DALL·E, and Adobe Firefly. The goal is to recreate a professional frontend experience while practicing responsive UI design and modern web development.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
 - HTML5
 - CSS3
@@ -31,58 +31,60 @@ This project demonstrates the design and development of a modern analytics dashb
 
 ---
 
-## 📂 Folder Structure
+## 🚀 Getting Started
+
+Clone the repository and open `index.html` in your browser.
+
+```bash
+git clone https://github.com/your-username/ai-image-generator-ui.git
+```
+
+---
+
+## 📂 Project Structure
 
 ```text
-saas-analytics-dashboard/
-│── index.html
-│── style.css
-│── script.js
-│── assets/
+ai-image-generator-ui/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
 └── README.md
 ```
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Learning Outcomes
 
-- Design a professional SaaS dashboard UI
-- Present business metrics in a clear format
-- Practice responsive frontend development
-- Improve dashboard usability and accessibility
-
----
-
-## 💼 Applications
-
-This dashboard can be adapted for:
-
-- SaaS Products
-- CRM Systems
-- Finance Dashboards
-- Sales Analytics
-- Startup Admin Panels
-- Business Intelligence Tools
+- Designed a modern AI-inspired user interface
+- Improved responsive web design skills
+- Implemented interactive frontend functionality
+- Practiced building scalable UI components for future API integration
 
 ---
 
-## 🔮 Future Scope
+## 🔮 Future Improvements
 
-- API-based live analytics
-- Interactive charts with Chart.js
-- User authentication
-- Dark mode support
-- Export reports (PDF/Excel)
-- Custom dashboard widgets
-- Multi-user access control
-
----
-
-
- 👩‍💻 Developed By
-
-Ramya V
+- AI image generation API integration
+- Image download and sharing
+- Prompt history
+- AI style selection
+- Image gallery
+- Dark & Light themes
+- Multiple image generation support
 
 ---
 
-### ⭐ If you like this project, consider giving it a Star on GitHub!
+## 📸 Preview
+
+_Add screenshots of the Home Screen and Image Preview section here._
+
+---
+
+## 👩‍💻 Developed By
+
+**Ramya**
+
+---
+
+⭐ **If you enjoyed this project, consider giving it a Star on GitHub!**
